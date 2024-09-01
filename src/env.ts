@@ -5,6 +5,8 @@ export const env = createEnv({
   runtimeEnv: process.env,
   server: {
     DISCORD_BOT_TOKEN: z.string(),
-    DISCORD_CLIENT_ID: z.string()
+    DISCORD_CLIENT_ID: z.string(),
+    DISCORD_GUILD_ID: z.string(),
+    DATABASE_URL: z.string(),
   }
 });
